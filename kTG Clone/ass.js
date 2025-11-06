@@ -9,13 +9,14 @@ const Message = 'HI, ${firstName} ${surName}, ${age} years old, ${gender}, welco
 
 document.getElementsByClassName("message").innerText = Message + "\nIf you want to continue click YES, if not click NO.";
 
-document.getElementsById("YES").style.display = "inline-block";
-document.getElementsById("NO").style.display = "inline-block";}
+document.getElementsById("yes").style.display = "inline-block";
+document.getElementsById("no").style.display = "inline-block";}
 
 function continueSite() {
     alert("Great! Enjoy your stay.");}
 
 function exitSite(){
     alert("Goodbye! Enjoy Have a nice day.");}
+
 
 
