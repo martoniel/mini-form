@@ -3,48 +3,39 @@
   <head>
     <title>KTG Site Clone</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="ass.js"></script>
+    <script src="ass.js" defer></script>
   </head>
   <body>
-<h1>Enter your Details here</h1>
-      <label class="firstName">Firstname <input type="text" placeholder="Firstname" ></label> <br>
-      <label class="surName">Surname <input type="text" placeholder="Surname" /></label> <br>
-      <label class="age">Age <input type="number" placeholder="Age" /></label> <br>
-      <label class="gender">Gender[M/F] <input type="text" placeholder="Gender" /></label> <br>
-      
+    <h1>Enter your Details here</h1>
+
+    <label>Firstname 
+      <input type="text" id="firstname" placeholder="firstname" />
+    </label>
+    <br>
+
+    <label>Surname 
+      <input type="text" id="surname" placeholder="surname" />
+    </label>
+    <br>
+
+    <label>Age 
+      <input type="number" id="age" placeholder="age" />
+    </label>
+    <br>
+
+    <label>Gender [M/F]
+      <input type="text" id="gender" placeholder="gender" />
+    </label>
+    <br>
+
     <button onclick="showMessage()">Submit</button>
-      
 
-<div class="message">
-        <p class="message"></p>
-    <div class="buttons">
-        <button onclick="continueSite()" class="YES">YES</button>
-        <button onclick="exitSite()" class="NO">NO</button>
+    <div class="message">
+      <p id="message"></p>
+      <div class="buttons">
+        <button onclick="continueSite()" id="yes">YES</button>
+        <button onclick="exitSite()" id="no">NO</button>
+      </div>
     </div>
-</div>
-    
-<!--
-    <section class="midpage">
-      <
-    </section>
--->
-
-<!--
-    <section class="midpage2">
-      <h1>/></h1>
-      <h1>/></h1>
-      <h1></h1>
-      <h1></h1>
-    </section>
--->
-
-<!--
-    <script>
-      const read = document.getElementsByClassName("YES");
-      const read2 = document.getElementsByClassName("NO");
-
-      var firstName = document.getele;
-    </script>
--->
   </body>
 </html>
